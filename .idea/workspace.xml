@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="3" />
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,37 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Categorie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Categorie" />
-      <module name="Portfolio opdracht OPT2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Portfolio opdracht OPT2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ps4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ps4" />
-      <module name="Portfolio opdracht OPT2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NintendoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Portfolio opdracht OPT2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NintendoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestTest.kortingPer12Maanden">
     <configuration name="TestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Portfolio opdracht OPT2" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,13 +66,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTest.decision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="decision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.gekochteProductOptiesOpties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="gekochteProductOptiesOpties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.kortingPer12Maanden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="kortingPer12Maanden" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.leeftijdOpties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="leeftijdOpties" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
         <item itemvalue="JUnit.TestTest" />
-        <item itemvalue="Application.Categorie" />
-        <item itemvalue="Application.Ps4" />
-        <item itemvalue="JUnit.NintendoTest" />
+        <item itemvalue="JUnit.TestTest.decision" />
+        <item itemvalue="JUnit.TestTest.gekochteProductOptiesOpties" />
+        <item itemvalue="JUnit.TestTest.leeftijdOpties" />
       </list>
     </recent_temporary>
   </component>

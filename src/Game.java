@@ -28,6 +28,7 @@ public class Game {
         return this.price / 2;
     }
 
+
     public Console getPlayedOn() {
         return playedOn;
     }
