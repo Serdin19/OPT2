@@ -2,13 +2,11 @@ public class Korting{
 
     private int klantMaanden;
     private int positieveReview;
-    private int leeftijd;
     private int gekochteProduct;
 
-    public Korting(int klantMaanden, int positieveReview, int leeftijd, int gekochteProduct) {
+    public Korting(int klantMaanden, int positieveReview, int gekochteProduct) {
         this.klantMaanden = klantMaanden;
         this.positieveReview = positieveReview;
-        this.leeftijd = leeftijd;
         this.gekochteProduct = gekochteProduct;
     }
 
@@ -36,17 +34,6 @@ public class Korting{
         return reviewOpties();
     }
 
-    public String leeftijdOpties(){
-        String optie1 = "Jonger dan 18";
-        String optie2 = "Ouder dan 18";
-
-        if(leeftijd < 18){
-            return optie1;
-        }else if(leeftijd >= 18) {
-            return optie2;
-        }
-        return leeftijdOpties();
-    }
 
     public String gekochteProductOpties(){
         String optie1 = "Laag(<25)";
@@ -70,9 +57,7 @@ public class Korting{
     }
 
     public boolean geefKortingControle() {
-        if (klantMaanden > 12 && leeftijd > 18){
-            return true;
-        }else if(positieveReview > 0 && leeftijd >18){
+        if (klantMaanden > 12 && positieveReview > 0){
             return true;
         }else
             return false;

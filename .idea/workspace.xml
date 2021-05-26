@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio opdracht OPT2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio opdracht OPT2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Korting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -51,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTest.kortingPer12Maanden">
+  <component name="RunManager" selected="JUnit.TestTest.geefKortingControle">
     <configuration name="TestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Portfolio opdracht OPT2" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,11 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.gekochteProductOptiesOpties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTest.geefKortingControle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Portfolio opdracht OPT2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="METHOD_NAME" value="gekochteProductOptiesOpties" />
+      <option name="METHOD_NAME" value="geefKortingControle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.getPs4Controller" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="getPs4Controller" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,23 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.leeftijdOpties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Portfolio opdracht OPT2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="METHOD_NAME" value="leeftijdOpties" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
+        <item itemvalue="JUnit.TestTest.geefKortingControle" />
         <item itemvalue="JUnit.TestTest" />
+        <item itemvalue="JUnit.TestTest.getPs4Controller" />
+        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
         <item itemvalue="JUnit.TestTest.decision" />
-        <item itemvalue="JUnit.TestTest.gekochteProductOptiesOpties" />
-        <item itemvalue="JUnit.TestTest.leeftijdOpties" />
       </list>
     </recent_temporary>
   </component>
