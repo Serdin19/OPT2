@@ -1,20 +1,29 @@
 import java.util.ArrayList;
 
-abstract class Console implements ConsoleSpecs{
+public abstract class Console {
 
     private String name;
+    private String userName;
+    private String password;
+    static ArrayList<Console> consoles;
 
     public Console(String name) {
         this.name = name;
+        this.consoles = new ArrayList<>();
     }
 
-
-    public static void getConsoles(ArrayList<Console> consoles){
-
-        for (Console b : consoles) {
-            System.out.println(b.getName());
+    public boolean loggedIntoConsole(String message) {
+        if (logIn(this.userName, this.password)) {
+            boolean result =  sendData(message.getBytes());
+            logOut();
+            return result;
         }
+        return false;
     }
+
+    abstract boolean logIn(String userName, String password);
+    abstract boolean sendData(byte[] data);
+    abstract void logOut();
 
     public void designConsole(){
         System.out.println("Design van elke console is anders");
@@ -28,23 +37,19 @@ abstract class Console implements ConsoleSpecs{
         this.name = name;
     }
 
-    @Override
-    public void ps4Specs() {
-        System.out.println("Specs ps4: " + "\n" + "Gpu: " + "x86-64 AMD “Jaguar”, 8 cores" + "\n" + "Cpu: " + "1,84 TFLOPS, AMD Radeon™-gebaseerde graphics engine" + "\n" + "Memory: " + "GDDR5 8 GB" + "\n" + "Storage: " + "500 GB, 1 TB");
+    public String getUserName() {
+        return userName;
     }
 
-    @Override
-    public void xboxSpecs() {
-        System.out.println("Specs xbox: " + "\n" + "Gpu: " + "x86-64 AMD “Jaguar”, 8 cores" + "\n" + "Cpu: " + "1,84 TFLOPS, AMD Radeon™-gebaseerde graphics engine" + "\n" + "Memory: " + "GDDR5 8 GB" + "\n" + "Storage: " + "500 GB, 1 TB");
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    @Override
-    public void pcSpecs() {
-        System.out.println("Specs pc: " + "\n" + "Gpu: " + "x86-64 AMD “Jaguar”, 8 cores" + "\n" + "Cpu: " + "1,84 TFLOPS, AMD Radeon™-gebaseerde graphics engine" + "\n" + "Memory: " + "GDDR5 8 GB" + "\n" + "Storage: " + "500 GB, 1 TB");
+    public String getPassword() {
+        return password;
     }
 
-    @Override
-    public void nintendoSpecs() {
-        System.out.println("Specs nintendo: " + "\n" + "Gpu: " + "x86-64 AMD “Jaguar”, 8 cores" + "\n" + "Cpu: " + "1,84 TFLOPS, AMD Radeon™-gebaseerde graphics engine" + "\n" + "Memory: " + "GDDR5 8 GB" + "\n" + "Storage: " + "500 GB, 1 TB");
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

@@ -10,6 +10,15 @@ public class Korting{
         this.gekochteProduct = gekochteProduct;
     }
 
+    @Override
+    public String toString() {
+        return "Klant{" +
+                "klantMaanden=" + klantMaanden +
+                ", positieveReview=" + positieveReview +
+                ", gekochteProduct=" + gekochteProduct +
+                '}';
+    }
+
     public String maandenOpties(){
         String optie1 = "Minder dan 12 maanden";
         String optie2 = "Meer dan 12 maanden";
@@ -93,5 +102,9 @@ public class Korting{
         double resultaat = gekochteProduct * geldNaAanschaffing;
         return resultaat;
         }
+
+    public  double allDiscounts() {
+        return kortingPer12Maanden() + geldPerAangeschafteProduct();
+    }
     }
 

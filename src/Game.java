@@ -16,18 +16,9 @@ public class Game {
         this.playedOn = playedOn;
     }
 
-    public static void gameList(ArrayList<Game> games){
-
-        for (Game c : games) {
-            System.out.println("Game: " + c.getName() + " " + "\n" + "Price: " + c.getPrice() + " euros" + "\n" + "Information: " + c.getInformation() + "\n" + "Genre: " + c.getGenre());
-            System.out.println();
-        }
-    }
-
     public int korting() {
         return this.price / 2;
     }
-
 
     public Console getPlayedOn() {
         return playedOn;

@@ -11,11 +11,11 @@ public class Categorie {
 
     }
 
-    public static void getCatergories(ArrayList<Categorie>categorien){
+    public static void allCategories() {
+        Categorie categorie = new Categorie("Action games");
+        Categorie categorie1 = new Categorie("Sport games");
 
-        for (Categorie b : categorien) {
-            System.out.println(b.getName());
-        }
+        System.out.println(categorie.getName() + "\n" + categorie1.getName());
     }
 
     public void addGame(Game game){

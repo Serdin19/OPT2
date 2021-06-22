@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Tests">
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Randwaarden tests">
+      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio opdracht OPT2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio opdracht OPT2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/ConsoleSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsoleSpecs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Korting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nintendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nintendo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ps4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Xbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xbox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +42,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1q1SSuTkAS6G7bW7pM9YiF0OBig" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,11 +73,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projectgroep-7e" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -54,22 +87,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTest.geefKortingControle">
-    <configuration name="TestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Portfolio opdracht OPT2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTest.decision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Portfolio opdracht OPT2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="METHOD_NAME" value="decision" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,11 +105,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.getPs4Controller" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTest.geldPerAangeschafteProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Portfolio opdracht OPT2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="METHOD_NAME" value="getPs4Controller" />
+      <option name="METHOD_NAME" value="geldPerAangeschafteProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,13 +125,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTest.reviewsGegeven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Portfolio opdracht OPT2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTest" />
+      <option name="METHOD_NAME" value="reviewsGegeven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestTest.geefKortingControle" />
-        <item itemvalue="JUnit.TestTest" />
-        <item itemvalue="JUnit.TestTest.getPs4Controller" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestTest.reviewsGegeven" />
         <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
-        <item itemvalue="JUnit.TestTest.decision" />
+        <item itemvalue="JUnit.TestTest.geldPerAangeschafteProduct" />
+        <item itemvalue="JUnit.TestTest.geefKortingControle" />
       </list>
     </recent_temporary>
   </component>
