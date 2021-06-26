@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Randwaarden tests">
-      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Shorter codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/ConsoleSpecs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Categorie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleSpecs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Korting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Nintendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nintendo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ps4.java" afterDir="false" />
@@ -71,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projectgroep-7e" />
@@ -203,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620307156773</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Shorter codes">
+      <created>1624358595447</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624358595447</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +215,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="3" />
     <MESSAGE value="Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
+    <MESSAGE value="Shorter codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shorter codes" />
   </component>
 </project>

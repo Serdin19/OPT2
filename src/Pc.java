@@ -37,21 +37,6 @@ public  class Pc extends Console{
     }
 
     @Override
-    boolean logIn(String userName, String password) {
-        return false;
-    }
-
-    @Override
-    boolean sendData(byte[] data) {
-        return false;
-    }
-
-    @Override
-    void logOut() {
-
-    }
-
-    @Override
     public void designConsole(){
         System.out.println("Measurement pc: " + "\n" + "Height: 2.09" + "Depht: 12" + "Width: 10.8" + "Weight: 6.3 lb");
     }

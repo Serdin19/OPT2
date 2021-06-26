@@ -13,21 +13,6 @@ public class Ps4 extends Console {
     }
 
     @Override
-    boolean logIn(String userName, String password) {
-        return false;
-    }
-
-    @Override
-    boolean sendData(byte[] data) {
-        return false;
-    }
-
-    @Override
-    void logOut() {
-
-    }
-
-    @Override
     public void designConsole() {
         System.out.println("Measurement ps4: " + "\n" + "Height: 2.09" + "Depht: 12" + "Width: 10.8" + "Weight: 6.3 lb");
     }

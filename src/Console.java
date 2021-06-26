@@ -12,19 +12,6 @@ public abstract class Console {
         this.consoles = new ArrayList<>();
     }
 
-    public boolean loggedIntoConsole(String message) {
-        if (logIn(this.userName, this.password)) {
-            boolean result =  sendData(message.getBytes());
-            logOut();
-            return result;
-        }
-        return false;
-    }
-
-    abstract boolean logIn(String userName, String password);
-    abstract boolean sendData(byte[] data);
-    abstract void logOut();
-
     public void designConsole(){
         System.out.println("Design van elke console is anders");
     }
