@@ -21,7 +21,7 @@ class TestTest {
     @Test
     void korting() {
         Pc pc = new Pc("PC", "Corsair", "Corsair");
-        Game game = new Game("League of legends", 10, "Open world", "Action", pc);
+        Game game = new Game("League of legends", 10, "Action");
         assertEquals(5, game.korting());
     }
 
@@ -61,38 +61,5 @@ class TestTest {
             assertEquals(50, klant.geldPerAangeschafteProduct());
             assertEquals(100, klant1.geldPerAangeschafteProduct());
         }
-
-        @Test
-        void maandenOpties(){
-        Korting klant = new Korting(7,24,24);
-        Korting klant1 = new Korting(32,50,50);
-        assertEquals("Minder dan 12 maanden", klant.maandenOpties());
-        assertEquals("Meer dan 12 maanden", klant1.maandenOpties());
-        }
-
-        @Test
-        void reviewOpties(){
-        Korting klant = new Korting(7,10,24);
-        Korting klant1 = new Korting(32,100,50);
-        assertEquals("Laag(<25)", klant.reviewOpties());
-        assertEquals("Gemiddeld(>25)", klant1.reviewOpties());
-        }
-
-        @Test
-        void gekochteProductOptiesOpties(){
-        Korting klant = new Korting(2,10,10);
-        Korting klant1 = new Korting(10,28,28);
-        assertEquals("Laag(<25)", klant.gekochteProductOpties());
-        assertEquals("Gemiddeld(>25)", klant1.gekochteProductOpties());
-        }
-
-        @Test
-        void decision(){
-        Korting klant = new Korting(2,10,10);
-        Korting klant1 = new Korting(10,28,28);
-        assertEquals("Laag(<25)", klant.gekochteProductOpties());
-        assertEquals("Gemiddeld(>25)", klant1.gekochteProductOpties());
-    }
-
 }
 

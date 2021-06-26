@@ -4,28 +4,16 @@ public class Game {
 
     private String name;
     private int price;
-    private String information;
     private String genre;
-    private Console playedOn;
 
-    public Game(String name, int price, String information, String genre, Console playedOn){
+    public Game(String name, int price, String genre){
         this.name = name;
         this.price = price;
-        this.information = information;
         this.genre = genre;
-        this.playedOn = playedOn;
     }
 
     public int korting() {
         return this.price / 2;
-    }
-
-    public Console getPlayedOn() {
-        return playedOn;
-    }
-
-    public void setPlayedOn(Console playedOn) {
-        this.playedOn = playedOn;
     }
 
     public String getName() {
@@ -42,14 +30,6 @@ public class Game {
 
     public void setPrice(int price) {
         this.price = price;
-    }
-
-    public String getInformation() {
-        return information;
-    }
-
-    public void setInformation(String information) {
-        this.information = information;
     }
 
     public String getGenre() {

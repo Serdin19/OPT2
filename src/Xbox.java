@@ -14,24 +14,24 @@ public  class Xbox extends Console{
 
     public static void allActionGamesXbox() {
         Xbox xbox = new Xbox("Xbox", "aesthetics");
-        Game game = new Game("Halo 3", 10, "Open world", "Action", xbox);
-        Game game1 = new Game("Forza Horizon 4", 30, "Race", "Sport", xbox);
+        Game game = new Game("Halo 3", 10,  "Action");
+        Game game1 = new Game("Forza Horizon 4", 30, "Sport");
 
         consoles.add(xbox);
         xboxGames.add(game);
         xboxGames.add(game1);
-        System.out.println("Name: " + game.getName() + "\n" + "Price: " + game.getPrice() + "\n" + "Information: " + game.getInformation() + "\n" + "Genre: " + game.getGenre() + "\n" + "\n" + "Name: " + game1.getName() + "\n" + "Price: " + game1.getPrice() + "\n" + "Information: " + game1.getInformation() + "\n" + "Genre: " + game1.getGenre());
+        System.out.println("Name: " + game.getName() + "\n" + "Price: " + game.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game.getGenre() + "\n" + "\n" + "Name: " + game1.getName() + "\n" + "Price: " + game1.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game1.getGenre());
     }
 
     public static void allSportGamesXbox() {
         Xbox xbox = new Xbox("Xbox", "aesthetics");
-        Game game2 = new Game("Fifa 21", 20, "Sport", "Sport", xbox);
-        Game game3 = new Game("NBA2k", 20, "Sport", "Sport", xbox);
+        Game game2 = new Game("Fifa 21", 20, "Sport");
+        Game game3 = new Game("NBA2k", 20, "Sport");
 
         consoles.add(xbox);
         xboxGames.add(game2);
         xboxGames.add(game3);
-        System.out.println("Name: " + game2.getName() + "\n" + "Price: " + game2.getPrice() + "\n" + "Information: " + game2.getInformation() + "\n" + "Genre: " + game2.getGenre() + "\n" + "\n" + "Name: " + game3.getName() + "\n" + "Price: " + game3.getPrice() + "\n" + "Information: " + game3.getInformation() + "\n" + "Genre: " + game3.getGenre());
+        System.out.println("Name: " + game2.getName() + "\n" + "Price: " + game2.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game2.getGenre() + "\n" + "\n" + "Name: " + game3.getName() + "\n" + "Price: " + game3.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game3.getGenre());
     }
 
     @Override
@@ -42,7 +42,7 @@ public  class Xbox extends Console{
     public static void exclusiveXboxGames(ArrayList<Game> xboxGames) {
 
         for (Game d : xboxGames) {
-            System.out.println("Game: " + d.getName() + " " + "\n" + "Price: " + d.getPrice() + " euros" + "\n" + "Information: " + d.getInformation() + "\n" + "Genre: " + d.getGenre());
+            System.out.println("Game: " + d.getName() + " " + "\n" + "Price: " + d.getPrice() + " euros" + "\n" + "Information: " + "\n" + "Genre: " + d.getGenre());
             System.out.println();
         }
     }

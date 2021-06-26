@@ -21,23 +21,23 @@ public class Ps4 extends Console {
 
     public static void allActionGamesPs4() {
         Ps4 ps4 = new Ps4("Ps4", "aesthetics");
-        Game game = new Game("Ghost of Tsushima", 40, "Open world", "Action", ps4);
-        Game game1 = new Game("Spiderman", 50, "Open world", "Action", ps4);
+        Game game = new Game("Ghost of Tsushima", 40, "Action");
+        Game game1 = new Game("Spiderman", 50,  "Action");
 
         consoles.add(ps4);
         ps4Games.add(game);
         ps4Games.add(game1);
-        System.out.println("Name: " + game.getName() + "\n" + "Price: " + game.getPrice() + "\n" + "Information: " + game.getInformation() + "\n" + "Genre: " + game.getGenre() + "\n" + "\n" + "Name: " + game1.getName() + "\n" + "Price: " + game1.getPrice() + "\n" + "Information: " + game1.getInformation() + "\n" + "Genre: " + game1.getGenre());
+        System.out.println("Name: " + game.getName() + "\n" + "Price: " + game.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game.getGenre() + "\n" + "\n" + "Name: " + game1.getName() + "\n" + "Price: " + game1.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game1.getGenre());
     }
 
     public static void allSportGamesPs4() {
         Ps4 ps4 = new Ps4("Ps4", "aesthetics");
-        Game game2 = new Game("Fifa 21", 20, "Sport", "Sport", ps4);
-        Game game3 = new Game("NBA2k", 20, "Sport", "Sport", ps4);
+        Game game2 = new Game("Fifa 21", 20, "Sport");
+        Game game3 = new Game("NBA2k", 20, "Sport");
 
         ps4Games.add(game2);
         ps4Games.add(game3);
-        System.out.println("Name: " + game2.getName() + "\n" + "Price: " + game2.getPrice() + "\n" + "Information: " + game2.getInformation() + "\n" + "Genre: " + game2.getGenre() + "\n" + "\n" + "Name: " + game3.getName() + "\n" + "Price: " + game3.getPrice() + "\n" + "Information: " + game3.getInformation() + "\n" + "Genre: " + game3.getGenre());
+        System.out.println("Name: " + game2.getName() + "\n" + "Price: " + game2.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game2.getGenre() + "\n" + "\n" + "Name: " + game3.getName() + "\n" + "Price: " + game3.getPrice() + "\n" + "Information: " + "\n" + "Genre: " + game3.getGenre());
     }
 
     public String getPs4Controller() {
