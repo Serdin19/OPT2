@@ -72,7 +72,7 @@ public class Korting{
             return false;
     }
 
-    public int kortingPer12Maanden(){
+    public int korting60Maanden(){
         int price = 5;
 
         if(klantMaanden == 60){
@@ -96,7 +96,7 @@ public class Korting{
         }
 
     public  double allDiscounts() {
-        return kortingPer12Maanden() + geldPerAangeschafteProduct();
+        return korting60Maanden() + geldPerAangeschafteProduct();
     }
     }
 

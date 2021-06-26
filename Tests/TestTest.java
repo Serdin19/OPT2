@@ -41,7 +41,7 @@ class TestTest {
         @Test
         void kortingPer12Maanden(){
             Korting klant = new Korting(60,5,5);
-            assertEquals(25, klant.kortingPer12Maanden());
+            assertEquals(25, klant.korting60Maanden());
         }
 
         @Test
