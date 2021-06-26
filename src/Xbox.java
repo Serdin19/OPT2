@@ -39,14 +39,6 @@ public  class Xbox extends Console{
         System.out.println("Measurement xbox: " + "\n" + "Height: 2.09" + "Depht: 12" + "Width: 10.8" + "Weight: 6.3 lb");
     }
 
-    public static void exclusiveXboxGames(ArrayList<Game> xboxGames) {
-
-        for (Game d : xboxGames) {
-            System.out.println("Game: " + d.getName() + " " + "\n" + "Price: " + d.getPrice() + " euros" + "\n" + "Information: " + "\n" + "Genre: " + d.getGenre());
-            System.out.println();
-        }
-    }
-
     public String getXboxController() {
         return xboxController;
     }

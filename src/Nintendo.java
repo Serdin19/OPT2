@@ -37,7 +37,6 @@ public  class Nintendo extends Console{
         System.out.println("Measurement nintendo: " + "\n" + "Height: 2.09" + "Depht: 12" + "Width: 10.8" + "Weight: 6.3 lb");
     }
 
-
     public String getNintendoController() {
         return nintendoController;
     }

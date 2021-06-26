@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Uselles code verwijderd">
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Uselles code verwijderd + 2 parameters van Game() verwijderd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nintendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nintendo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ps4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xbox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624709662580</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Uselles code verwijderd + 2 parameters van Game() verwijderd">
+      <created>1624710497161</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624710497161</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +250,7 @@
     <MESSAGE value="kortinPer12Maanden aangepast" />
     <MESSAGE value="kortinPer12Maanden aangepast1" />
     <MESSAGE value="Uselles code verwijderd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uselles code verwijderd" />
+    <MESSAGE value="Uselles code verwijderd + 2 parameters van Game() verwijderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uselles code verwijderd + 2 parameters van Game() verwijderd" />
   </component>
 </project>
