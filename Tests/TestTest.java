@@ -40,8 +40,8 @@ class TestTest {
 
         @Test
         void kortingPer12Maanden(){
-            Korting klant = new Korting(48,5,5);
-            assertEquals(20, klant.kortingPer12Maanden());
+            Korting klant = new Korting(60,5,5);
+            assertEquals(25, klant.kortingPer12Maanden());
         }
 
         @Test

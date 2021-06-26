@@ -75,18 +75,10 @@ public class Korting{
     public int kortingPer12Maanden(){
         int price = 5;
 
-        if(klantMaanden == 12){
-            return price;
-        }else if(klantMaanden == 24){
-            return price *2;
-        }else if(klantMaanden == 36){
-            return price *3;
-        }else if(klantMaanden == 48){
-            return price *4;
-        }else if(klantMaanden == 60){
+        if(klantMaanden == 60){
             return price *5;
-        }
-        return price;
+        }else
+            return price;
     }
 
     public int reviewsGegeven(){

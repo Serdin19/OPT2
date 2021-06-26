@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Shorter codes">
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Shorter codes1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Nintendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nintendo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ps4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ps4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Xbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Xbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Korting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestTest.kortingPer12Maanden">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Portfolio opdracht OPT2" />
@@ -120,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
+        <item itemvalue="JUnit.TestTest.geefKortingControle" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestTest.reviewsGegeven" />
-        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
         <item itemvalue="JUnit.TestTest.geldPerAangeschafteProduct" />
-        <item itemvalue="JUnit.TestTest.geefKortingControle" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624358595447</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Shorter codes1">
+      <created>1624708005839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624708005839</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +220,7 @@
     <MESSAGE value="3" />
     <MESSAGE value="Tests" />
     <MESSAGE value="Shorter codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shorter codes" />
+    <MESSAGE value="Shorter codes1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shorter codes1" />
   </component>
 </project>
