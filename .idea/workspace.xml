@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Shorter codes1">
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="kortinPer12Maanden aangepast1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Korting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Korting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624708005839</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="kortinPer12Maanden aangepast">
+      <created>1624708928351</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624708928351</updated>
+    </task>
+    <task id="LOCAL-00011" summary="kortinPer12Maanden aangepast1">
+      <created>1624709024488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1624709024488</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +234,8 @@
     <MESSAGE value="Tests" />
     <MESSAGE value="Shorter codes" />
     <MESSAGE value="Shorter codes1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shorter codes1" />
+    <MESSAGE value="kortinPer12Maanden aangepast" />
+    <MESSAGE value="kortinPer12Maanden aangepast1" />
+    <option name="LAST_COMMIT_MESSAGE" value="kortinPer12Maanden aangepast1" />
   </component>
 </project>
