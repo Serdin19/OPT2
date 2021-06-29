@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Portfolio opdracht OPT2:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Korting tests aangepast" />
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Kleine aanpassingen">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Portfolio_opdracht_OPT2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3861a56ed46ed04a0b74dc3765d88f8858de211f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4cb962cb4eebe7ee6e9ea4a7cb43178a5764086" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +62,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projectgroep-7e" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JAR Application.Portfolio opdracht OPT2.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Portfolio opdracht OPT2" />
@@ -100,23 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.kortingPer12Maanden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Portfolio opdracht OPT2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTest" />
-      <option name="METHOD_NAME" value="kortingPer12Maanden" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Portfolio opdracht OPT2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Portfolio_opdracht_OPT2_jar/Portfolio opdracht OPT2.jar" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.Portfolio opdracht OPT2.jar" />
         <item itemvalue="JUnit.TestTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestTest.allKorting" />
         <item itemvalue="JUnit.TestTest.korting" />
-        <item itemvalue="JUnit.TestTest.kortingPer12Maanden" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624993131897</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Korting tests aangepast">
+      <created>1624993271883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624993271883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Kleine aanpassingen">
+      <created>1624993401129</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1624993401129</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +291,7 @@
     <MESSAGE value="Uselles code verwijderd" />
     <MESSAGE value="Korting method in Game verwijderd" />
     <MESSAGE value="Korting tests aangepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Korting tests aangepast" />
+    <MESSAGE value="Kleine aanpassingen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kleine aanpassingen" />
   </component>
 </project>
