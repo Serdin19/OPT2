@@ -70,13 +70,13 @@ public class Main {
         System.out.println();
         System.out.println("Customer Discount: ");
         if (inputUser.equals(user.getName())) {
-            System.out.println(klant.allDiscounts() + "euro");
-        }else if (inputUser.equals(user1.getName() + "euro")){
-            System.out.println(klant1.allDiscounts() + "euro");
-        }else if (inputUser.equals(user2.getName() + "euro")){
-            System.out.println(klant2.allDiscounts() + "euro");
-        }else if (inputUser.equals(user3.getName() + "euro")){
-            System.out.println(klant3.allDiscounts() + "euro");
+            System.out.println(klant.allDiscounts() + " " + "euro");
+        }else if (inputUser.equals(user1.getName() + " " + "euro")){
+            System.out.println(klant1.allDiscounts() + " " + "euro");
+        }else if (inputUser.equals(user2.getName() + " " + "euro")){
+            System.out.println(klant2.allDiscounts() + " " + "euro");
+        }else if (inputUser.equals(user3.getName() + " " + "euro")){
+            System.out.println(klant3.allDiscounts() + " " + "euro");
         }
     }
 }
