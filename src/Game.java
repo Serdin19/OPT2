@@ -12,10 +12,6 @@ public class Game {
         this.genre = genre;
     }
 
-    public int korting() {
-        return this.price / 2;
-    }
-
     public String getName() {
         return name;
     }
