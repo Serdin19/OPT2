@@ -20,9 +20,14 @@ class TestTest {
 
     @Test
     void korting() {
-        Pc pc = new Pc("PC", "Corsair", "Corsair");
-        Game game = new Game("League of legends", 10, "Action");
-        assertEquals(5, game.korting());
+        Korting klant = new Korting(60, 46, 46);
+        assertEquals(25, klant.korting60Maanden());
+    }
+
+    @Test
+    void allKorting() {
+        Korting klant = new Korting(60, 46, 46);
+        assertEquals(48, klant.allDiscounts());
     }
 
         @Test
