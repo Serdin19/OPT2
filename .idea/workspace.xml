@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Korting method in Game verwijderd" />
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Korting tests aangepast" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624992725296</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Korting tests aangepast">
+      <created>1624993131897</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1624993131897</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +273,7 @@
     <MESSAGE value="Uselles code verwijderd + 2 parameters van Game() verwijderd" />
     <MESSAGE value="Uselles code verwijderd" />
     <MESSAGE value="Korting method in Game verwijderd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Korting method in Game verwijderd" />
+    <MESSAGE value="Korting tests aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Korting tests aangepast" />
   </component>
 </project>

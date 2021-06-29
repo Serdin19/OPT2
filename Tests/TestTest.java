@@ -19,7 +19,7 @@ class TestTest {
     }
 
     @Test
-    void korting() {
+    void korting60Maanden() {
         Korting klant = new Korting(60, 46, 46);
         assertEquals(25, klant.korting60Maanden());
     }
@@ -41,12 +41,6 @@ class TestTest {
             assertFalse(klant1.geefKortingControle());
             assertTrue(klant2.geefKortingControle());
             assertTrue(klant3.geefKortingControle());
-        }
-
-        @Test
-        void kortingPer12Maanden(){
-            Korting klant = new Korting(60,5,5);
-            assertEquals(25, klant.korting60Maanden());
         }
 
         @Test
