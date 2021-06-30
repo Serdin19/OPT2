@@ -1,5 +1,5 @@
-import java.io.IOException;
-import java.util.ArrayList;
+package com.gamesgo;
+
 import java.util.Scanner;
 
 public class Main {

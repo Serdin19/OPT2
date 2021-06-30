@@ -1,3 +1,6 @@
+import com.gamesgo.Korting;
+import com.gamesgo.Pc;
+import com.gamesgo.Ps4;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

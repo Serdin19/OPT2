@@ -1,5 +1,6 @@
+package com.gamesgo;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Ps4 extends Console {
 

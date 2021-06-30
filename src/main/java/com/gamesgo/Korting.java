@@ -1,3 +1,5 @@
+package com.gamesgo;
+
 public class Korting{
 
     private int klantMaanden;

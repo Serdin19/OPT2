@@ -1,3 +1,5 @@
+package com.gamesgo;
+
 import java.util.ArrayList;
 
 public  class Pc extends Console{
