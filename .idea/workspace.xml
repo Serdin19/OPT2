@@ -6,19 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Kleine aanpassingen">
+    <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Laatste aanpassing">
       <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624993401129</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Laatste aanpassing">
+      <created>1625062739159</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1625062739159</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +295,7 @@
     <MESSAGE value="Korting method in Game verwijderd" />
     <MESSAGE value="Korting tests aangepast" />
     <MESSAGE value="Kleine aanpassingen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kleine aanpassingen" />
+    <MESSAGE value="Laatste aanpassing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laatste aanpassing" />
   </component>
 </project>
