@@ -7,12 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="932a32be-d143-44c6-ad2f-6cdf2392d978" name="Default Changelist" comment="Kleine aanpassingen">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Portfolio_opdracht_OPT2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3861a56ed46ed04a0b74dc3765d88f8858de211f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4cb962cb4eebe7ee6e9ea4a7cb43178a5764086" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Categorie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Korting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Nintendo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Pc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Ps4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Portfolio opdracht OPT2/Xbox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Portfolio opdracht OPT2/TestTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
